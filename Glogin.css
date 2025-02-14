@@ -1,0 +1,72 @@
+.body {
+background:   linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,140,163,1) 29%, rgba(243,253,255,0.9874278248220251) 77%, rgba(252,254,255,1) 100%);
+  background-color: rgb(2,0,36);
+  margin: 0px;
+}
+.input{
+ font-size:10px;
+  justify-content: center; 
+  text-align: center;
+  font-family:serif;
+  color:skyblue;
+}
+
+.input:invalid:not(:placeholder-shown){
+  border-color:red;
+  background:url(checked_green.png);
+}
+.input:valid:not(:placeholder-shown){
+  border-color:green;
+  background:url(checked_red.png);
+}
+.input:invalid:not(:placeholder-shown),
+.input:valid:not(:placeholder-shown){
+  background-size:15px;
+  background-repeat: no-repeat;
+  background-position:calc(100%,-10%);
+  position:relative;
+}
+.input:invalid:not(:placeholder-shown) + p{
+  color:red;
+}
+.input:valid:not(:placeholder-shown) + p{
+  color:green;
+}
+button{
+  border-radius:12px;
+  background:white;
+}
+.login{
+  background:transparent;
+  color:#EEEEEE;
+}
+/*/ register form/**/
+
+.text{
+   text-align:center;
+  color:red;
+}
+.inputs:invalid:not(:placeholder-shown){
+  border-color:red;
+  background:url(checked_green.png);
+}
+.inputs:valid:not(:placeholder-shown){
+  border-color:green;
+  background:url(checked_red.png);
+}
+.inputs:invalid:not(:placeholder-shown),
+.inputs:valid:not(:placeholder-shown){
+  background-size:15px;
+  background-repeat: no-repeat;
+  background-position:calc(100%,-10%);
+  position:relative;
+}
+.inputs:invalid:not(:placeholder-shown) + p{
+  color:red;
+}
+.inputs:valid:not(:placeholder-shown) + p{
+  color:green;
+}
+.white{
+  color:white;
+}

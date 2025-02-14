@@ -1,0 +1,90 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="Glogin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<style>
+@media only screen and (min-width: 600px) {
+.bg{
+  margin-left:30%;
+}
+
+@media only screen and (max-width: 1200px) {
+  form{
+    margin:30%;
+  }
+  .bg{
+     margin-top:50%;
+    margin-right:26%;
+      min-height:50vh;
+      min-width:50vw;
+  }
+  h1{
+    margin-left:10%;
+  }
+  h3{
+    margin-right:-1%;
+    
+  }
+    form{
+        margin-top:2%;
+    }
+   p{
+      position:absolute;
+        left:6%;}
+    .p{
+        position:absolute;
+        left:14%;
+    }
+    .sign{
+        margin-top:40%;
+    }
+}
+</style>
+<body class="body"style="background:   linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(135,140,163,1) 29%, rgba(243,253,255,0) 100%, rgba(243,253,255,0) 100%);
+  background-color: rgb(2,0,36);
+  background:cover;
+  margin: 0px;">
+    <div class="bg">
+        <div class="frame" style=" background: rgba(56, 52, 52, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.9px);
+background: -webkit-backdrop-filter: blur(4.9px);
+border: 1px solid rgba(56, 52, 52, 0.3);max-width:900vw; max-height:900vh; width:400px; text-align:center;margin-right:40px;margin-top:70px;
+">
+             <div><h1 style="color:white;">Hi,Welcome back!</h1></div>
+            <h3 style="color:#EEEEEE;">First time here? <a href="Gregister.html" style="color:white;text-decoration:none;">Sign up for free</a></h3>
+    <img src="Google.png" alt="google" width="100" height="100" style="
+background: rgba(56, 52, 52, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.9px);
+-webkit-backdrop-filter: blur(4.9px);
+border: 1px solid rgba(56, 52, 52, 0.3);margin:20px;">
+    
+    <form action="login.html">
+        <input type="Email" class="input" name="Email"
+placeholder="Your email" required pattern=".+@gmail.com">  
+        <br><br>
+        <input type="password"  class="input" name="password" placeholder="password" minlength="6" required>
+        <p class="p"> password must be atleast 6 characters</p>  
+        <button type="submit" class="sign">Sign in</button> 
+        <div class="or">or</div> <br>
+        <button class="login" type="button">Login with phone number</button> 
+        <p style="color:white;" >you acknowledge that you read and accept, to our<a href="#" style="color:white"> Terms of service </a> and our <a href="#" style="color:white;">Privacy policy</a> </p>
+    </form>
+        </div>
+    </div>
+    
+        
+    </form>
+             
+    <script defer src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+   
+</body>
+</html>
